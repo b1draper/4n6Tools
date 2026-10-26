@@ -101,8 +101,9 @@ Reference: [How-To Geek - Mounting Removable Drives and Network Locations in WSL
 Let’s say you have an external drive `G:` that represents either a USB drive or an optical disc drive. To mount it, you’d run the following commands:
 ```bash
 sudo mkdir /mnt/g
-sudo mount -t drvfs G: /mnt/g
+sudo mount -t drvfs G: /mnt/g<p>
 ```
+<img width="60%" alt="image" src="https://github.com/user-attachments/assets/92d75002-30a2-4363-9a9e-afae876b4296" /><p>
 
 You don’t actually have to mount the drive at `/mnt/g`, of course. You can mount it wherever you want. Just replace both instances of `/mnt/g` in the commands with your desired path.
 
